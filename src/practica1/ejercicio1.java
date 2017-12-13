@@ -22,10 +22,10 @@ public class ejercicio1 {
         double binario;
         Scanner sc = new Scanner(System.in);
         do{  
-            System.out.print("Introduce un numero entero >= 0: ");
+            System.out.print("Introduce un numero entero >= 0: "); 
             numero = sc.nextInt();
         }while(numero<0);
-        exp=0;
+        exp=0;    
         binario=0;
         while(numero!=0){
                 digito = numero % 2;            
@@ -36,6 +36,7 @@ public class ejercicio1 {
         System.out.printf("Binario: %.0f %n", binario);
     }
     }
+
 
     
    
